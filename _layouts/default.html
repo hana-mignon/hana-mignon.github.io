@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="uk-height-1-1 uk-margin-remove" lang="{{ site.lang }}">
+     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+          {% include head.html %}
+     </head>             
+     <body>       
+          <div class="uk-container">
+              <div class="uk-width-1-1">
+                   
+                  <div class="uk-background-cover uk-text-center uk-flex uk-flex-center uk-flex-middle uk-margin-large-top uk-border-rounded" uk-parallax="sepia: 100 ;bg: -200; background-color:pink,white; "uk-height-viewport>
+                      <div class="uk-width-medium-1-2 uk-container-center">
+                          <div class="uk-vertical-align">
+                              <div class="uk-vertical-align-middle">
+                                   
+                                  {% include profile.html %} 
+                                   
+                                  <div class="uk-height-small">
+                                      <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-margin-auto continer-wrapper">
+                                          
+                                          <h3 hidden>
+                                             works | 作品
+                                          </h3>
+                                          <div class="uk-child-width-1-2@s uk-margin-medium-bottom" uk-grid> 
+                                              {% include works.html %} 
+                                          </div><!-- uk-child-width-1-2@s uk-margin-medium-bottom -end -->          
+                                      </div><!-- uk-card uk-card-default uk-card-body uk-width-1-2@m uk-margin-auto continer-wrapper -end -->
+                                  </div><!-- uk-height-small -end -->
+                                       
+                              </div><!-- uk-vertical-align-middle -end -->
+                          </div><!-- uk-width-medium-1-2 uk-container-center -end -->
+                      </div><!-- uk-vertical-align -end -->
+                  </div><!-- uk-background-cover uk-text-center uk-flex uk-flex-center uk-flex-middle uk-margin-large-top uk-border-rounded -end -->
+                  
+                  <div class="uk-margin-large-top"> 
+                       
+                      <span hidden>
+                           Copyright hana
+                      </span>
+                       
+                      <ul class="uk-navbar-nav">
+                         <span hidden> 
+                              SNS
+                         </span> 
+                         <li class="uk-navbar-item">
+                            <span class="uk-badge uk-background-muted">
+                                 &#127800;
+                            </span><!-- uk-badge uk-background-muted -end -->
+                         </li><!-- uk-navbar-item -end -->
+                       
+                         {% include sns.html %}
+                           
+                      </ul><!-- uk-navbar-nav end -->                                                      
+                  </div><!-- uk-margin-large-top -end -->
+              </div><!-- uk-width-1-1 -end -->
+          </div><!-- uk-container -end -->    
+　　 </body>
+</html>
