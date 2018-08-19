@@ -6,8 +6,8 @@ description: hanaのポートフォリオ
 keywords: hana,hana-mignon,ポートフォリオ,はな,乙女
 url: https://hana-mignon.github.io
 ogimage: https://hana-mignon.github.io/image/avatar_hana_profile.png
-icon: /image/avatar_hanaproficon.png
-appleicon: /image/avatar_hanaproficon.png
+icon: https://hana-mignon.github.io/image/avatar_hanaproficon.png
+appleicon: https://hana-mignon.github.io/image/avatar_hanaproficon.png
 exclude: ["README.md"]
 
 # User
